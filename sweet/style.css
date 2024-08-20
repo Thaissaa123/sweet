@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+    background-color: #A75067;  
+  }
+  header{
+      margin: auto;
+      text-align: center;
+      color:bisque;
+  }
+  nav{
+  background-color: #c0eee0;
+  padding: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color:#3e5e54;
+  text-align: center;
+  }
+nav > a:hover{
+  text-decoration: none;
+  color: #3e5e54;
+  padding: 10px;
+  transition-duration: 0.5s;    
+}
+section{
+  background-color: antiquewhite;
+  border: 2px solid #A75067;
+  border-radius: 5%;
+  padding: 5%;
+
+}
+aside{
+  background-color:#7D1D8A ;
+  width: 300px;
+  padding: 2%;
+  border: 2px solid #d03ae4;
+  border-radius: 10%;
+  
+}
+aside {
+  color:beige;
+}
+
